@@ -20,6 +20,6 @@ echo "<br>";
 $kodok = new Frog("buduk");
 $kodok->jump() ; // "hop hop"
 echo "<br>";
-echo $kodok->legs;
+echo $kodok->set_leg(4);
 
 ?>

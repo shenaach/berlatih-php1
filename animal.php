@@ -15,6 +15,9 @@ class Animal{
     public function getLegs(){
         echo $this->legs;
     }
+    public function set_leg($legs){
+        echo $this->legs =$legs;
+    }
     public function get_cold_blooded(){
         echo $this->cold_blooded;
     }
